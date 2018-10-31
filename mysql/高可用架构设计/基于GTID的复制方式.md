@@ -77,9 +77,9 @@
 
 	mysql -uroot -p -P3309 < all2.sql
 
-5. 启动基于GTID的复制
+5. 启动基于GTID的复制  
 
-	change master to master-host=’主服务IP’,
+	change master to master-host=’主服务IP’,  
 
 	master_user=’repl’,
 
@@ -99,10 +99,18 @@
 	
 ### 优点：
 	
-1. 可以方便的进行故障转移
-2. 从库不会丢失主库上的任何修改
+	1. 可以方便的进行故障转移
+	2. 从库不会丢失主库上的任何修改
 
 ### 缺点：
 
-1. 故障出来比较复杂
-2. 对执行的SQL # to be continue
+	1. 故障出来比较复杂
+	2. 对执行的SQL有一定的限制
+
+
+如何选择复制的方式：
+
+	1. 所使用的Mysql版本  
+	2. 复制架构及主从切换的方式
+	3. 所使用的高可用管理组件
+	4. 对应用的支持程度
