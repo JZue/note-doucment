@@ -1,4 +1,4 @@
-package com.jzue.netty_study.netty.netty2_1;
+package com.jzue.study.netty.netty2_1;
 
 /**
  * @Author: junzexue

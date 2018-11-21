@@ -1,7 +1,6 @@
-package com.jzue.netty_study.netty.netty2_1;
+package com.jzue.study.netty.netty2_1;
 
 
-import com.sun.xml.internal.ws.handler.ClientLogicalHandlerTube;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
