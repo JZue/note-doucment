@@ -12,11 +12,12 @@ import javax.security.auth.login.Configuration;
 @SpringBootApplication
 public class StudySrcApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         ConfigurableApplicationContext context=SpringApplication.run(StudySrcApplication.class, args);
         KafkaSender sender =context.getBean(KafkaSender.class);
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             //调用消息发送类中的消息发送方法
+            Thread.sleep(10000);
             sender.send();
         }
     }

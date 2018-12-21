@@ -21,6 +21,7 @@ public class TestServerHandler extends ChannelInboundHandlerAdapter {
         try {
             while (in.isReadable()){
                 System.out.println("TODO: ");
+                char chars=(char) in.readByte();
                 System.out.println((char) in.readByte());
                 System.out.flush();
             }

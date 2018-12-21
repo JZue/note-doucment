@@ -45,7 +45,10 @@ public class Server {
             ChannelFuture f = b.bind(port).sync(); // (7)
 
             f.channel().closeFuture().sync();
-        } finally {
+        } catch (Exception e){
+            e.printStackTrace();
+            throw e;
+        }finally {
             workerGroup.shutdownGracefully();
             bossGroup.shutdownGracefully();
         }
