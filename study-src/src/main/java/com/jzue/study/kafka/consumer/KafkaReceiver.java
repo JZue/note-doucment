@@ -16,7 +16,7 @@ import java.net.HttpURLConnection;
 @Slf4j
 @Component
 public class KafkaReceiver {
-    @KafkaListener(topics = {"5ecd841bda214500bc1c7e38fffd8362__ivc_botai_telemetrydata_up"})
+    @KafkaListener(topics = {"5ecd841bda214500bc1c7e38fffd8362__ivc_botai_command_up"})
     public void listen(ConsumerRecord<?, ?> record){
         log.info("=============================");
     }
