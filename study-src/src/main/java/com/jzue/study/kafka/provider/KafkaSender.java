@@ -22,8 +22,6 @@ import java.util.UUID;
 @Component
 public class KafkaSender {
 
-    @Autowired
-    private KafkaTemplate<String,String> kafkaTemplate;
 
 
     public static String  getTestJson(){
@@ -204,17 +202,21 @@ public class KafkaSender {
         return realDataJson;
     }
 
-    public static  String getTest(){
-        return "0113010a1212080101000380fe564e4e3030303030303030303030303031003f13010a1212081001000102ffff03001e0405054142434444061f9007564573696f08564573696f09f00a00280b00320cf00d060e6b6b6b7474740f1f9a1002";
+    public static  String getTest( ){
+        return null;
+        //return "011301160d0814010100038001564e4e3030303030303030303030303031004f1301160d08141001000102001403001e040f0568747470733a2f2f636e2e62696e672e636f6d061f9007564573696f08564573696f09ff0a00280b00320cf00d060e6b6b6b6b6b7474740f1f9a1002";
         //return "011301080f340e0102000380fe564e4e3030303030303030303030303031004d1301080f340e01313536313131313232323200616c69636500616c696365000000ff6464641f9041534446414141414142424242424654503a2f2f3230302e3130302e3230302e31303000ea60";
 //        return "01120C14121302010200010901564E4E3030303030303030303030303031000F120C1412130ACD0101010005010000";
         //return "01120C14121302010100010201564E4E3030303030303030303030303031001A120C1412130201636363630514010101010101010202040001";
     }
 
+    @Autowired
+    private KafkaTemplate<String,String> kafkaTemplate;
 
-    public void send(){
+    public void send(String str){
 
-        log.info("+++++++++++++++++++++  message = {}", getTest());
-        kafkaTemplate.send("5ecd841bda214500bc1c7e38fffd8362__ivc_botai_command_up", getTest());
+
+        log.info("+++++++++++++++++++++  message = {}", str);
+        kafkaTemplate.send("5ecd841bda214500bc1c7e38fffd8362__ivc_botai_command_up", str);
     }
 }

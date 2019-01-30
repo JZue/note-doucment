@@ -11,6 +11,9 @@ import java.util.Arrays;
  * @Description:
  **/
 public class Test {
+
+
+
     public static void main(String[] args) throws  Exception {
 
         byte[] srtbyte = {18, 12, 12, 13};

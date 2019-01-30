@@ -13,13 +13,8 @@ import javax.security.auth.login.Configuration;
 public class StudySrcApplication {
 
     public static void main(String[] args) throws Exception {
-        ConfigurableApplicationContext context=SpringApplication.run(StudySrcApplication.class, args);
-        KafkaSender sender =context.getBean(KafkaSender.class);
-        for (int i = 0; i <2; i++) {
-            //调用消息发送类中的消息发送方法
+SpringApplication.run(StudySrcApplication.class, args);
 
-            sender.send();
-            Thread.sleep(10000);
-        }
+
     }
 }
