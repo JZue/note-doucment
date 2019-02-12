@@ -31,5 +31,6 @@ public class CountExample {
             });
         }
         System.out.println(count);
+        pool.shutdown();
     }
 }
