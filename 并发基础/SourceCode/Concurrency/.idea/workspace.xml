@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233e2ac1-2a08-45cb-a559-dd239e947860" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../mysql/外键的问题.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高可用架构设计/MySQL复制拓扑.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高可用架构设计/MySql复制常见问题处理.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高可用架构设计/主从复制延迟原因及解决方案.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高可用架构设计/主从复制数据一致性与日志记录格式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高可用架构设计/基于GTID的复制方式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高可用架构设计/基于日志的复制方式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高级原理/Id策略问题.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高级原理/mysql锁机制.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../mysql/高级原理/statement原理及PrepareStatement如何提高性能.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../concurrency/src/main/java/com/example/concurrency/example/count/CountExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../concurrency/src/main/java/com/example/concurrency/example/count/CountExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../第一节.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../第二节.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../线程安全性.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/threadLocal/RequestHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/threadLocal/RequestHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../线程安全策略.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,24 +19,37 @@
     <session id="-1604414818">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="44" />
+          <entry key="UnmodifiableMap" value="1" />
+          <entry key="class" value="5" />
+          <entry key="java" value="66" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="44" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="66" />
+          <entry key="UML" value="1" />
           <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="172" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="172" />
         </counts>
       </usages-collector>
     </session>
@@ -53,145 +57,154 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/atomic/AtomicExample6.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="2553">
+              <caret line="252" column="7" selection-start-line="252" selection-start-column="7" selection-end-line="252" selection-end-column="7" />
+              <folding>
+                <element signature="docComment;class#ThreadLocal#0" />
+                <element signature="docComment;field#threadLocalHashCode#0;class#ThreadLocal#0" />
+                <element signature="docComment;field#nextHashCode#0;class#ThreadLocal#0" />
+                <element signature="docComment;field#HASH_INCREMENT#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#nextHashCode#0;class#ThreadLocal#0" />
+                <element signature="e#4309#4310#0" expanded="true" />
+                <element signature="e#4336#4337#0" expanded="true" />
+                <element signature="docComment;method#withInitial#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#ThreadLocal#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#setInitialValue#0;class#ThreadLocal#0" />
+                <element signature="method#setInitialValue#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#set#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#getMap#0;class#ThreadLocal#0" />
+                <element signature="e#7765#7766#0" expanded="true" />
+                <element signature="e#7802#7803#0" expanded="true" />
+                <element signature="docComment;method#createMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#createInheritedMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#childValue#0;class#ThreadLocal#0" />
+                <element signature="docComment;class#SuppliedThreadLocal#0;class#ThreadLocal#0" />
+                <element signature="class#SuppliedThreadLocal#0;class#ThreadLocal#0" />
+                <element signature="docComment;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;field#value#0;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#Entry#0;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;field#INITIAL_CAPACITY#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;field#table#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;field#size#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;field#threshold#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#setThreshold#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#nextIndex#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#prevIndex#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#ThreadLocalMap#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#ThreadLocalMap#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#ThreadLocalMap#1;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#ThreadLocalMap#1;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#getEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#getEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#getEntryAfterMiss#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#getEntryAfterMiss#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#set#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#set#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="e#15456#15514#0" />
+                <element signature="docComment;method#remove#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#remove#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#replaceStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#replaceStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="e#17888#17945#0" />
+                <element signature="e#18418#18480#0" />
+                <element signature="e#18703#18745#0" />
+                <element signature="e#19496#19550#0" />
+                <element signature="docComment;method#expungeStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#expungeStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="e#21511#21562#0" />
+                <element signature="docComment;method#cleanSomeSlots#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#cleanSomeSlots#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#rehash#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#rehash#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#resize#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#resize#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="docComment;method#expungeStaleEntries#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+                <element signature="method#expungeStaleEntries#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/DateFormatExample1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="97" column="38" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="38" />
-              <folding>
-                <element signature="docComment;class#AtomicBoolean#0" />
-                <element signature="initializer##0;class#AtomicBoolean#0" />
-                <element signature="docComment;method#AtomicBoolean#0;class#AtomicBoolean#0" />
-                <element signature="docComment;method#AtomicBoolean#1;class#AtomicBoolean#0" />
-                <element signature="method#AtomicBoolean#1;class#AtomicBoolean#0" />
-                <element signature="docComment;method#get#0;class#AtomicBoolean#0" />
-                <element signature="docComment;method#compareAndSet#0;class#AtomicBoolean#0" />
-                <element signature="docComment;method#weakCompareAndSet#0;class#AtomicBoolean#0" />
-                <element signature="method#weakCompareAndSet#0;class#AtomicBoolean#0" />
-                <element signature="docComment;method#set#0;class#AtomicBoolean#0" />
-                <element signature="docComment;method#lazySet#0;class#AtomicBoolean#0" />
-                <element signature="method#lazySet#0;class#AtomicBoolean#0" />
-                <element signature="docComment;method#getAndSet#0;class#AtomicBoolean#0" />
-                <element signature="method#getAndSet#0;class#AtomicBoolean#0" />
-                <element signature="docComment;method#toString#0;class#AtomicBoolean#0" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/StringExample1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1196">
+              <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/StringExample2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24">
+              <caret line="161" column="23" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/ArrayListExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/ArrayListExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
-              <folding>
-                <element signature="docComment;class#AtomicInteger#0" />
-                <element signature="initializer##0;class#AtomicInteger#0" />
-                <element signature="docComment;method#AtomicInteger#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#AtomicInteger#1;class#AtomicInteger#0" />
-                <element signature="method#AtomicInteger#1;class#AtomicInteger#0" />
-                <element signature="docComment;method#get#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#set#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#lazySet#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#getAndSet#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#compareAndSet#0;class#AtomicInteger#0" />
-                <element signature="method#compareAndSet#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#weakCompareAndSet#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#getAndIncrement#0;class#AtomicInteger#0" />
-                <element signature="e#4021#4022#0" expanded="true" />
-                <element signature="e#4085#4086#0" expanded="true" />
-                <element signature="docComment;method#getAndDecrement#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#getAndAdd#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#incrementAndGet#0;class#AtomicInteger#0" />
-                <element signature="e#4725#4726#0" expanded="true" />
-                <element signature="e#4793#4794#0" expanded="true" />
-                <element signature="docComment;method#decrementAndGet#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#addAndGet#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#getAndUpdate#0;class#AtomicInteger#0" />
-                <element signature="method#getAndUpdate#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#updateAndGet#0;class#AtomicInteger#0" />
-                <element signature="method#updateAndGet#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#getAndAccumulate#0;class#AtomicInteger#0" />
-                <element signature="method#getAndAccumulate#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#accumulateAndGet#0;class#AtomicInteger#0" />
-                <element signature="method#accumulateAndGet#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#toString#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#intValue#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#longValue#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#floatValue#0;class#AtomicInteger#0" />
-                <element signature="docComment;method#doubleValue#0;class#AtomicInteger#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="357" lean-forward="true" selection-start-line="357" selection-end-line="364" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/count/CountExample1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/count/CountExample2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+            <state relative-caret-position="215">
+              <caret line="161" column="74" lean-forward="true" selection-start-line="161" selection-start-column="74" selection-end-line="161" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/count/CountExample3.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/HttpInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="115">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/count/CountExample4.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/ConcurrencyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="69">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -202,7 +215,10 @@
     <findStrings>
       <find>allocate</find>
       <find>getAndIn</find>
+      <find>un</find>
       <find>getAndIncrement</find>
+      <find>UnmodifiableMap</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,6 +231,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/annoations/NotThreadSafe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/annoations/Recommend.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/annoations/ThreadSafe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/StringExample1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/threadLocal/RequestHolder.java" />
       </list>
     </option>
   </component>
@@ -232,10 +252,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2387" />
-    <option name="y" value="181" />
-    <option name="width" value="1405" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="63" />
+    <option name="y" value="72" />
+    <option name="width" value="1269" />
     <option name="height" value="755" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -244,8 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,21 +348,48 @@
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
               <item name="concurrency" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="commonUnsafe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="threadLocal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549960523085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550053370697" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -379,18 +424,19 @@
       <option name="presentableId" value="Default" />
       <updated>1549873565965</updated>
       <workItem from="1549873567260" duration="2319000" />
-      <workItem from="1549938318079" duration="3565000" />
+      <workItem from="1549938318079" duration="10800000" />
+      <workItem from="1550107800721" duration="2190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5884000" />
+    <option name="totallyTimeSpent" value="15309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2387" y="181" width="1405" height="755" extended-state="0" />
+    <frame x="63" y="72" width="1269" height="755" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3294204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37000814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -406,9 +452,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.13725491" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.05580694" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.4987775" visible="true" weight="0.05580694" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -430,18 +476,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/publish/Escape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/annoations/NotRecommend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -481,20 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/HttpInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/HttpFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -557,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/deadLock/DeadLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -613,34 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="97" column="38" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="38" />
-          <folding>
-            <element signature="docComment;class#AtomicBoolean#0" />
-            <element signature="initializer##0;class#AtomicBoolean#0" />
-            <element signature="docComment;method#AtomicBoolean#0;class#AtomicBoolean#0" />
-            <element signature="docComment;method#AtomicBoolean#1;class#AtomicBoolean#0" />
-            <element signature="method#AtomicBoolean#1;class#AtomicBoolean#0" />
-            <element signature="docComment;method#get#0;class#AtomicBoolean#0" />
-            <element signature="docComment;method#compareAndSet#0;class#AtomicBoolean#0" />
-            <element signature="docComment;method#weakCompareAndSet#0;class#AtomicBoolean#0" />
-            <element signature="method#weakCompareAndSet#0;class#AtomicBoolean#0" />
-            <element signature="docComment;method#set#0;class#AtomicBoolean#0" />
-            <element signature="docComment;method#lazySet#0;class#AtomicBoolean#0" />
-            <element signature="method#lazySet#0;class#AtomicBoolean#0" />
-            <element signature="docComment;method#getAndSet#0;class#AtomicBoolean#0" />
-            <element signature="method#getAndSet#0;class#AtomicBoolean#0" />
-            <element signature="docComment;method#toString#0;class#AtomicBoolean#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,54 +668,254 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/java.util.Collections.UnmodifiableMap">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Collections.UnmodifiableMap</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.Collections.UnmodifiableMap</node>
+            <node x="" y="">java.util.Map</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="107.0" y="55.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1443" column="23" selection-start-line="1443" selection-start-column="8" selection-end-line="1443" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/collect/ImmutableList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="242" column="1" lean-forward="true" selection-start-line="242" selection-start-column="1" selection-end-line="242" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/annotations/Beta.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/annotations/GwtCompatible.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/collect/ImmutableMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="437" column="3" selection-start-line="437" selection-start-column="3" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/immutable/ImmutableExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/threadLocal/ThreadLocalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/HttpFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="54" />
           <folding>
-            <element signature="docComment;class#AtomicInteger#0" />
-            <element signature="initializer##0;class#AtomicInteger#0" />
-            <element signature="docComment;method#AtomicInteger#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#AtomicInteger#1;class#AtomicInteger#0" />
-            <element signature="method#AtomicInteger#1;class#AtomicInteger#0" />
-            <element signature="docComment;method#get#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#set#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#lazySet#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#getAndSet#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#compareAndSet#0;class#AtomicInteger#0" />
-            <element signature="method#compareAndSet#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#weakCompareAndSet#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#getAndIncrement#0;class#AtomicInteger#0" />
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
-            <element signature="docComment;method#getAndDecrement#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#getAndAdd#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#incrementAndGet#0;class#AtomicInteger#0" />
-            <element signature="e#4725#4726#0" expanded="true" />
-            <element signature="e#4793#4794#0" expanded="true" />
-            <element signature="docComment;method#decrementAndGet#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#addAndGet#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#getAndUpdate#0;class#AtomicInteger#0" />
-            <element signature="method#getAndUpdate#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#updateAndGet#0;class#AtomicInteger#0" />
-            <element signature="method#updateAndGet#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#getAndAccumulate#0;class#AtomicInteger#0" />
-            <element signature="method#getAndAccumulate#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#accumulateAndGet#0;class#AtomicInteger#0" />
-            <element signature="method#accumulateAndGet#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#toString#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#intValue#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#longValue#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#floatValue#0;class#AtomicInteger#0" />
-            <element signature="docComment;method#doubleValue#0;class#AtomicInteger#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/threadLocal/RequestHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="173" column="41" selection-start-line="173" selection-start-column="41" selection-end-line="173" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Thread#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2553">
+          <caret line="252" column="7" selection-start-line="252" selection-start-column="7" selection-end-line="252" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#ThreadLocal#0" />
+            <element signature="docComment;field#threadLocalHashCode#0;class#ThreadLocal#0" />
+            <element signature="docComment;field#nextHashCode#0;class#ThreadLocal#0" />
+            <element signature="docComment;field#HASH_INCREMENT#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#nextHashCode#0;class#ThreadLocal#0" />
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+            <element signature="docComment;method#withInitial#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#ThreadLocal#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#setInitialValue#0;class#ThreadLocal#0" />
+            <element signature="method#setInitialValue#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#set#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#getMap#0;class#ThreadLocal#0" />
+            <element signature="e#7765#7766#0" expanded="true" />
+            <element signature="e#7802#7803#0" expanded="true" />
+            <element signature="docComment;method#createMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#createInheritedMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#childValue#0;class#ThreadLocal#0" />
+            <element signature="docComment;class#SuppliedThreadLocal#0;class#ThreadLocal#0" />
+            <element signature="class#SuppliedThreadLocal#0;class#ThreadLocal#0" />
+            <element signature="docComment;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;field#value#0;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#Entry#0;class#Entry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;field#table#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;field#size#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;field#threshold#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#setThreshold#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#nextIndex#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#prevIndex#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#ThreadLocalMap#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#ThreadLocalMap#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#ThreadLocalMap#1;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#ThreadLocalMap#1;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#getEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#getEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#getEntryAfterMiss#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#getEntryAfterMiss#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#set#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#set#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="e#15456#15514#0" />
+            <element signature="docComment;method#remove#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#remove#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#replaceStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#replaceStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="e#17888#17945#0" />
+            <element signature="e#18418#18480#0" />
+            <element signature="e#18703#18745#0" />
+            <element signature="e#19496#19550#0" />
+            <element signature="docComment;method#expungeStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#expungeStaleEntry#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="e#21511#21562#0" />
+            <element signature="docComment;method#cleanSomeSlots#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#cleanSomeSlots#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#rehash#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#rehash#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#resize#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#resize#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="docComment;method#expungeStaleEntries#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+            <element signature="method#expungeStaleEntries#0;class#ThreadLocalMap#0;class#ThreadLocal#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/DateFormatExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/StringExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/StringExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/HttpInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/ConcurrencyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="161" column="23" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/commonUnsafe/ArrayListExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="237">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="161" column="74" lean-forward="true" selection-start-line="161" selection-start-column="74" selection-end-line="161" selection-end-column="74" />
         </state>
       </provider>
     </entry>

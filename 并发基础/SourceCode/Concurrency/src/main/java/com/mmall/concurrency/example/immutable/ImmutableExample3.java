@@ -8,8 +8,10 @@ import com.mmall.concurrency.annoations.ThreadSafe;
 @ThreadSafe
 public class ImmutableExample3 {
 
+    //无集合对象的初始化，点开构造方法，可以发现可以直接写下去，
     private final static ImmutableList<Integer> list = ImmutableList.of(1, 2, 3);
 
+    //有集合的初始化方法用copyof
     private final static ImmutableSet set = ImmutableSet.copyOf(list);
 
     private final static ImmutableMap<Integer, Integer> map = ImmutableMap.of(1, 2, 3, 4);
