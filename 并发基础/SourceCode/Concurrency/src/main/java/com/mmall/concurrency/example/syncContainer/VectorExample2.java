@@ -2,12 +2,13 @@ package com.mmall.concurrency.example.syncContainer;
 
 import com.mmall.concurrency.annoations.NotThreadSafe;
 
-import java.util.Vector;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 @NotThreadSafe
 public class VectorExample2 {
 
-    private static Vector<Integer> vector = new Vector<>();
+    private static List<Integer> vector = new CopyOnWriteArrayList<Integer>();
 
     public static void main(String[] args) {
 
@@ -21,6 +22,7 @@ public class VectorExample2 {
                 public void run() {
                     for (int i = 0; i < vector.size(); i++) {
                         vector.remove(i);
+                        System.out.println("remove"+i);
                     }
                 }
             };
@@ -29,6 +31,7 @@ public class VectorExample2 {
                 public void run() {
                     for (int i = 0; i < vector.size(); i++) {
                         vector.get(i);
+                        System.out.println("get"+i);
                     }
                 }
             };

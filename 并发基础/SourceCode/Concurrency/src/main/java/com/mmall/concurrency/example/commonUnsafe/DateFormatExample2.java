@@ -4,6 +4,7 @@ import com.mmall.concurrency.annoations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -43,6 +44,7 @@ public class DateFormatExample2 {
         try {
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
             simpleDateFormat.parse("20180208");
+            simpleDateFormat.format(new Date());
         } catch (Exception e) {
             log.error("parse exception", e);
         }
