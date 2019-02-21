@@ -28,6 +28,7 @@
 
 
 
+
     <dependencies>
         <!-- swagger begin -->
         <dependency>
@@ -41,6 +42,12 @@
             <version>${swagger2.version}</version>
         </dependency>
         <!-- swagger end -->
+
+        <dependency>
+            <groupId>cn.jpush.api</groupId>
+            <artifactId>jpush-client</artifactId>
+            <version>3.2.15</version>
+        </dependency>
 
         <dependency>
             <groupId>com.igormaznitsa</groupId>

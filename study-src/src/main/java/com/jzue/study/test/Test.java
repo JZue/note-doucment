@@ -14,15 +14,17 @@ public class Test {
 
 
 
-    public static void main(String[] args) throws  Exception {
+    public static void main(String[] args) throws NullPointerException{
+//        try {
+//            kkk(null);
+//        }catch (NullPointerException e){处理完成之后程序继续往下执行
+//            e.printStackTrace();
+//        }
+        kkk(null);
+        System.out.println(1111);
+    }
 
-        byte[] srtbyte = {18, 12, 12, 13};
-        StringBuilder stringBuilder = new StringBuilder("");
-        for (Byte b:srtbyte){
-            String str=Integer.toString(b);
-            stringBuilder.append(str);
-        }
-        System.out.println(stringBuilder.toString());
-
+    public static void kkk(String str) throws NullPointerException{
+        System.out.println(str.length());
     }
 }
