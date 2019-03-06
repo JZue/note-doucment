@@ -27,4 +27,8 @@ public class Test {
     public static void kkk(String str) throws NullPointerException{
         System.out.println(str.length());
     }
+
+
+
+
 }

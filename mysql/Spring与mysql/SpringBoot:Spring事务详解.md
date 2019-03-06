@@ -22,4 +22,4 @@
 
 [参考](https://blog.csdn.net/tianyaleixiaowu/article/details/73123242)
 
-**说实话，现阶段项目声明式事务已经可以满足基本需求了**
+**现阶段项目声明式事务已经可以满足基本需求了**
