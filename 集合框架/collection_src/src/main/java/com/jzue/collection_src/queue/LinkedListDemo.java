@@ -7,7 +7,7 @@ import java.util.*;
  * @Date: 2019/2/26 下午1:09
  * @Description:
  * queue:
-     * add()        增加一个元索                     如果队列已满，则抛出一个IIIegaISlabEepeplian异常
+     * add()        增加一个元索                     如果队列已满，则抛出一个IIIegaISlabEepeplian异常(LinkedList 由于其是基于链表操作的不会有这个问题)
      * remove()   移除并返回队列头部的元素    如果队列为空，则抛出一个NoSuchElementException异常
      * element()  返回队列头部的元素             如果队列为空，则抛出一个NoSuchElementException异常
      * offer()       添加一个元素并返回true       如果队列已满，则返回false
@@ -24,6 +24,7 @@ public class LinkedListDemo {
         queue.add("xue1");
         queue.add("xue2");
         queue.add("xue3");
+        queue.offer("xue4");
         System.out.println("queue:"+queue);
         //从开头开始删的，使用remove()方法删除元素时候，如果队列是空的，会抛出NoSuchElementException异常
         queue.remove();

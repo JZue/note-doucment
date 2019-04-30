@@ -7,7 +7,6 @@ import com.jzue.study.kafka.beans.Message;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
-import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -210,13 +209,13 @@ public class KafkaSender {
         //return "01120C14121302010100010201564E4E3030303030303030303030303031001A120C1412130201636363630514010101010101010202040001";
     }
 
-    @Autowired
-    private KafkaTemplate<String,String> kafkaTemplate;
+//    @Autowired
+//    private KafkaTemplate<String,String> kafkaTemplate;
 
     public void send(String str){
 
 
         log.info("+++++++++++++++++++++  message = {}", str);
-        kafkaTemplate.send("5ecd841bda214500bc1c7e38fffd8362__ivc_botai_command_up", str);
+//        kafkaTemplate.send("5ecd841bda214500bc1c7e38fffd8362__ivc_botai_command_up", str);
     }
 }

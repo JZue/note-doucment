@@ -1,4 +1,4 @@
-package com.jzue.mycollection.map.list;
+package com.jzue.mycollection.list;
 
 import org.jetbrains.annotations.NotNull;
 

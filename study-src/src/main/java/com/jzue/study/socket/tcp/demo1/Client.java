@@ -15,7 +15,7 @@ import java.net.Socket;
 @Slf4j
 public class Client {
 
-    private static Integer port=54321;
+    private final static Integer port=54321;
 
     public static void main(String[] args)throws IOException {
         Socket socket=new Socket();
