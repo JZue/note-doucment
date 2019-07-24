@@ -33,23 +33,15 @@
 
 * extra 
 
-  * using fieldsort:一般出现在 使用了 order by 语句当中。
+  * using filesort:一般出现在 使用了 order by 语句当中。
   * using temporary: 新建了临时表，常见于排序order by 和group by
     * 要么就不要建索引，建索引就要group by的优化
   * using index  用了覆盖索引，若同时出现using where ,标明索引被用来执行对应的键值的查询
   * using where
-  * using  join buffer  buffer可以调大一点
+  * using  join buffer :使用了连接缓存
   * impossible where  表示 where子句的值总是false，比如where m.uid=1 and m.uid =2
   * select tables optimized away
   * distinct
 
 * 覆盖索引
   * 查询列和索引的个数和顺序刚好吻合
-
-
-
-
-
-
-
-p208节
