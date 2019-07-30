@@ -18,7 +18,9 @@ allkeys-random：：从所有的key的哈希表（server.db[i].dict），在键�
 
 volatile-random：从已设置过期时间的哈希表（server.db[i].expires）中随机挑选key淘汰掉。
 
+volatile-lfu（Least Frequently Used）：对有过期时间的key采用`LFU`淘汰算法
 
+allkeys-lfu：对全部key采用`LFU`淘汰算法
 
 
 
@@ -26,12 +28,6 @@ Redis 中的lru 算法的实现可以参考<https://segmentfault.com/a/119000001
 
 Lru 算法的实现可以参考：<https://www.cnblogs.com/Dhouse/p/8615481.html>
 
+lfu算法逻辑：<https://blog.csdn.net/michaelzhou224/article/details/78620990>
+
 都可以了解一下
-
-Lru的算法实现思路（我觉得这是最好理解，b）
-
-1. 新数据插入到链表头部；
-
-2. 每当缓存命中（即缓存数据被访问），则将数据移到链表头部；
-
-3. 当链表满的时候，将链表尾部的数据丢弃。

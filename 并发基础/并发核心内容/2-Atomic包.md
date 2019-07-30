@@ -10,6 +10,10 @@
 
 
 
+Java从JDK 1.5开始提供了java.util.concurrent.atomic包，atomic包下的原子操作类都是基于CAS实现的，
+
+
+
 ## 特性
 
 * atomic是借助  **硬件**  的相关指令来实现的
