@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/jackone6469/config-repo.git
+          username: 646980564@qq.com
+          password: 646980.xue
+
+eureka:
+  client:
+    service-url: http://localhost:8761/eureka/
+server:
+  port: 9999
