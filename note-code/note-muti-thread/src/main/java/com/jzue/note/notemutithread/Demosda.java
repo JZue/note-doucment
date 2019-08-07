@@ -7,8 +7,10 @@ package com.jzue.note.notemutithread;
  **/
 public class Demosda {
     public static void main(String[] args) {
-        System.out.println(Demo.valueOf("DEMO1"));
-        System.out.println(Demo.valueOf("DEMO2"));
-        System.out.println(Demo.DEMO1);
+//        System.out.println(Demo.valueOf("DEMO1"));
+//        System.out.println(Demo.valueOf("DEMO2"));
+//        System.out.println(Demo.DEMO1);
+        Demosda demosda = new Demosda();
+        System.out.println(demosda.hashCode());
     }
 }

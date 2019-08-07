@@ -1,4 +1,4 @@
-package com.jzue.note.notemutithread.thread;
+package com.jzue.note.notemutithread;
 
 /**
  * @Author: junzexue
