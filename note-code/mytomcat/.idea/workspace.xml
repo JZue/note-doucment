@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b305694f-939f-4e6a-a0e4-21660075be0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../note-muti-thread/src/main/java/com/jzue/note/notemutithread/thread/join/JoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/MySQL高级优化/sql性能差的原因.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/MySQL高级优化/sql性能差的原因.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mysql/MySQL高级优化/慢查询分析/exists和in的优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../mysql/MySQL高级优化/慢查询分析/exists和in的优化.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytomcat.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../note-muti-thread/src/main/java/com/jzue/note/notemutithread/Demosda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../note-muti-thread/src/main/java/com/jzue/note/notemutithread/Demosda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../note-muti-thread/src/main/java/com/jzue/note/notemutithread/thread/ThreadExecutionQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../note-muti-thread/src/main/java/com/jzue/note/notemutithread/ThreadExecutionQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../note-muti-thread/src/main/java/com/jzue/note/notemutithread/thread/_Join.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../并发基础/多线程基础/join的实现原理.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../并发基础/多线程基础/thread_1/Thread类详解.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../并发基础/多线程基础/thread_1/thread类.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../并发基础/多线程基础/thread_2/Thread状态机制.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../并发基础/多线程基础/创建线程的方式.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-redis/src/main/java/com/jzue/note/noteredis/datastruct/RedisDataStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../note-redis/src/main/java/com/jzue/note/noteredis/datastruct/RedisDataStruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note-redis/src/test/java/com/jzue/note/noteredis/NoteRedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../note-redis/src/test/java/com/jzue/note/noteredis/NoteRedisApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,15 +65,16 @@
     <session id="84492560">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="4" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="png" value="3" />
           <entry key="webp" value="1" />
         </counts>
@@ -88,7 +83,7 @@
         <counts>
           <entry key="Image" value="4" />
           <entry key="JAVA" value="4" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -96,27 +91,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/LifecycleBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#825#844#0" expanded="true" />
-                <element signature="method#init#0;class#LifecycleBase#0" />
-                <element signature="method#start#0;class#LifecycleBase#0" />
-                <element signature="method#stop#0;class#LifecycleBase#0" />
-                <element signature="method#destroy#0;class#LifecycleBase#0" />
-                <element signature="docComment;method#fireLifecycleEvent#0;class#LifecycleBase#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/LifecycleConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="943">
               <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
             </state>
           </provider>
@@ -146,6 +123,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/tomcat.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="46">
+                <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/生命周期图.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -168,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/lifecycle.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="577">
+              <first_editor relative-caret-position="1334">
                 <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               </first_editor>
               <second_editor />
@@ -282,8 +271,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="91" />
+    <option name="x" value="2252" />
+    <option name="y" value="325" />
     <option name="width" value="1348" />
     <option name="height" value="768" />
   </component>
@@ -409,17 +398,18 @@
       <workItem from="1554281169114" duration="734000" />
       <workItem from="1555559909377" duration="1257000" />
       <workItem from="1565077823790" duration="802000" />
+      <workItem from="1565302712122" duration="1711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33762000" />
+    <option name="totallyTimeSpent" value="35473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="91" width="1348" height="768" extended-state="0" />
+    <frame x="2252" y="325" width="1348" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30704442" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3116386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -597,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,21 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="docComment;class#AbstractEndpoint#0" />
-            <element signature="method#setExecutor#0;class#AbstractEndpoint#0" />
-            <element signature="docComment;method#createExecutor#0;class#AbstractEndpoint#0" />
-            <element signature="docComment;method#createAcceptor#0;class#AbstractEndpoint#0" />
-            <element signature="docComment;class#Acceptor#0;class#AbstractEndpoint#0" />
-            <element signature="class#Acceptor#0;class#AbstractEndpoint#0" />
-            <element signature="docComment;class#Handler#0;class#AbstractEndpoint#0" />
-            <element signature="method#init#0;class#AbstractEndpoint#0" />
-            <element signature="method#start#0;class#AbstractEndpoint#0" />
-            <element signature="docComment;method#pause#0;class#AbstractEndpoint#0" />
-            <element signature="method#pause#0;class#AbstractEndpoint#0" />
-            <element signature="docComment;method#stop#0;class#AbstractEndpoint#0" />
-            <element signature="docComment;method#bind#0;class#AbstractEndpoint#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,59 +614,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/exception/ServletException.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/tomcat.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/connector/connector架构.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/connector/connector.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/tomcat 架构.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/9358129-5b64f5a0ce712949.webp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/net/SocketEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/lifecycle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="577">
-            <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/LifecycleBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="368">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#825#844#0" expanded="true" />
             <element signature="method#init#0;class#LifecycleBase#0" />
             <element signature="method#start#0;class#LifecycleBase#0" />
             <element signature="method#stop#0;class#LifecycleBase#0" />
@@ -709,7 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/LifecycleConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="943">
           <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
         </state>
       </provider>
@@ -728,8 +653,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/9358129-5b64f5a0ce712949.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/net/SocketEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/lifecycle.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1334">
+            <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/connector/connector.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/lifecycle/生命周期图.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/tomcat 架构.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jzue/tomcat/tomcat.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

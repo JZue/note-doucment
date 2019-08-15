@@ -65,4 +65,25 @@ public class RedisDataStruct {
         List<Object> tablename = redisTemplate.opsForHash().multiGet("tablename", objects);
         System.out.println("redis_hash:......................"+tablename);
     }
+
+    /**
+     * lpush -头部插入
+     **/
+    public void redis_list(){
+        redisTemplate.opsForList().leftPush("listDemo",1);
+        redisTemplate.opsForList().leftPush("listDemo",2);
+        redisTemplate.opsForList().leftPush("listDemo",3);
+        redisTemplate.opsForList().leftPush("listDemo",4);
+        redisTemplate.opsForList().rightPush("listDemo",5);
+        Object o = redisTemplate.opsForList().leftPop("listDemo");
+        Object listDemo = redisTemplate.opsForList().index("listDemo", 2);
+        System.out.println("key+lpop search........"+o.toString());
+        System.out.println("key+index search.........."+listDemo.toString());
+        // start end 如果超过范围就返回所有的值
+        List<Object> liestDemo = redisTemplate.opsForList().range("listDemo",0,-1);
+        redisTemplate.opsForList().trim("listDemo",0,10);
+        List<Object> liestDemo1 = redisTemplate.opsForList().range("listDemo",0,-1);
+        System.out.println(liestDemo.toString());
+        System.out.println(liestDemo1.toString());
+    }
 }

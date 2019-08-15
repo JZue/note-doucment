@@ -28,6 +28,10 @@ public class NoteRedisApplicationTests {
     public void redisHash(){
         redisDataStruct.redis_hash();
     }
+    @Test
+   public void redisList(){
+        redisDataStruct.redis_list();
+    }
 
     @Test
     public void redisBitMap(){

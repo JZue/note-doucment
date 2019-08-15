@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44979262-d93b-4146-b9e1-61b8c08f069c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../mysql/MySQL高级优化/sql性能差的原因.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mysql/MySQL高级优化/sql性能差的原因.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mysql/MySQL高级优化/慢查询分析/exists和in的优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mysql/MySQL高级优化/慢查询分析/exists和in的优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../note-code/mytomcat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../note-code/mytomcat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../note-code/note-muti-thread/src/main/java/com/jzue/note/notemutithread/executor/_NewCachedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../note-code/note-muti-thread/src/main/java/com/jzue/note/notemutithread/executor/_NewCachedThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../note-code/note-redis/src/main/java/com/jzue/note/noteredis/datastruct/RedisDataStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../note-code/note-redis/src/main/java/com/jzue/note/noteredis/datastruct/RedisDataStruct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../note-code/note-redis/src/test/java/com/jzue/note/noteredis/NoteRedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../note-code/note-redis/src/test/java/com/jzue/note/noteredis/NoteRedisApplicationTests.java" afterDir="false" />
     </list>
@@ -16,11 +20,11 @@
     <session id="1898128226">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/aqs/CountDownLatchExample1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="278">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -357,17 +361,18 @@
       <workItem from="1555558628497" duration="1064000" />
       <workItem from="1565087023851" duration="788000" />
       <workItem from="1565257117377" duration="190000" />
+      <workItem from="1565832552846" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2603000" />
+    <option name="totallyTimeSpent" value="3203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="43" width="1272" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31707317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3219512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,6 +460,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/aqs/CountDownLatchExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/aqs/CountDownLatchExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/aqs/CyclicBarrierExample1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -508,20 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/aqs/CountDownLatchExample2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/concurrency/example/aqs/CountDownLatchExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
