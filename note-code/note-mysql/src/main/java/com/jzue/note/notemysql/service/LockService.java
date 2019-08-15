@@ -4,9 +4,16 @@ import com.jzue.note.notemysql.entity.OptimisticLock;
 import com.jzue.note.notemysql.entity.PessimisticLock;
 import com.jzue.note.notemysql.repository.OptimisticLockRepository;
 import com.jzue.note.notemysql.repository.PessimisticLockRepository;
+import org.hibernate.StaleObjectStateException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.TransactionDefinition;
+import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.interceptor.TransactionAspectSupport;
+import org.springframework.transaction.support.DefaultTransactionDefinition;
+import org.springframework.transaction.support.TransactionCallback;
 
 import java.util.concurrent.ThreadPoolExecutor;
 
@@ -25,16 +32,25 @@ public class LockService {
     private PessimisticLockRepository pessimisticLockRepository;
 
 
-
     @Autowired
     private ThreadPoolExecutor executor;
 
     /**
-     * 乐观锁实现，并发高的时候，会抛出异常
+     * 乐观锁实现，@Version，并发的时候，会抛出异常,
      **/
     @Transactional
     public void optimisticLockExample(){
         // 快照读
+        OptimisticLock one = optimisticLockRepository.getOne(1L);
+        one.setCount(one.getCount() + 1);
+        optimisticLockRepository.save(one);
+    }
+
+    /**
+     * 乐观锁实现，cas,这个具体逻辑具体设计，此处逻辑较少~我直
+     **/
+    @Transactional
+    public void optimisticLockExampleCAS() {
         OptimisticLock one = optimisticLockRepository.getOne(1L);
         one.setCount(one.getCount() + 1);
         optimisticLockRepository.save(one);
