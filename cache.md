@@ -1,6 +1,6 @@
 
 1. 枚举的各种用法
-2. jpa  =>in 
+2. jpa  =>in dasdasd
 3. vo-->@JsonProperty
 4. lambda==>类似于es6
 5. Bigdecimal
