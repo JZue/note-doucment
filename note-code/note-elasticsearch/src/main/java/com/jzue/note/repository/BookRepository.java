@@ -1,7 +1,6 @@
 package com.jzue.note.repository;
 
 import com.jzue.note.entity.Book;
-//import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**
  * @Author: junzexue

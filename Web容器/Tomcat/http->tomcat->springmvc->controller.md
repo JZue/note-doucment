@@ -6,11 +6,11 @@
 * cdn预热的概念就在客户端根据域名去访问对应主机的过程）
 * 然后到指定ip的指定port，
 * Tomcat  开始起作用了，然后service(server下是可以配置多个sevice),
-* Connector中专门处理协议的serverSockect ，监听配置文件配置的那个端口，取到socket对象（这个过程设涉及到几种方式nio,nio2）这个然后将socket 封装成request 对象
+* Connector中专门处理协议的serverSockect ，监听配置文件配置的那个端口，取到socket对象（这个过程设涉及到几种方式bio,apr,nio,nio2）这个然后将socket 封装成request 对象
 * 然后根据Request 对象在服务器上找出这个请求对应的engine
 * 然后找到对应的虚拟机host
 * 然后就是对应的应用
-* StandardWrapperValve 先执行filerchain  然后单例创建servlet
+* StandardWrapperValve 先执行filterchain  然后单例创建servlet(这个servlet对于spring mvc来说就是DispatcherServlet)
 
 
 
