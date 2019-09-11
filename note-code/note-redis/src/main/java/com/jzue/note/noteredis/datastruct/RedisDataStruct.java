@@ -86,4 +86,5 @@ public class RedisDataStruct {
         System.out.println(liestDemo.toString());
         System.out.println(liestDemo1.toString());
     }
+
 }
