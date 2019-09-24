@@ -51,7 +51,7 @@
 
   但是，我还是去看了下日志，
 
-  ```
+  ```java
   org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: io.lettuce.core.RedisCommandTimeoutException: Command timed out after 1 minute(s)
   ```
 
