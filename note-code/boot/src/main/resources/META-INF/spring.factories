@@ -1,0 +1,3 @@
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jzue.note.boot.annotationdrive.EnableUserAutoConfig=\
+com.jzue.note.boot.annotationdrive.UserAutoConfiguration
