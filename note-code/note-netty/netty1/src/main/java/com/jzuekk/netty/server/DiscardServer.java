@@ -9,6 +9,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.string.StringDecoder;
 
 /**
  *
@@ -33,6 +34,7 @@ public class DiscardServer {
                     .childHandler(new ChannelInitializer<SocketChannel>()  {
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
+                            ch.pipeline().addFirst(new StringDecoder());
                             ch.pipeline().addLast(new DiscardServerHandler());
                         }
                     })
