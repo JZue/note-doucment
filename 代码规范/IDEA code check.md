@@ -83,7 +83,7 @@ https://blog.csdn.net/feinifi/article/details/85275280
 
 
 
-
+#### try catch 
 
 ```
 catch’ branch identical to ‘InstantiationException | IllegalAccessException’ branch less… (⌘F1)
@@ -102,3 +102,10 @@ This inspection only reports if the project or module is configured to use a lan
 无警告写法：
 
 ![屏幕快照 2019-10-30 下午3.11.30](./屏幕快照 2019-10-30 下午3.11.30.png)
+
+
+
+#### 接口不用加public
+
+一开始定义接口的时候并不知道别人怎么用，所以尽量少给别人设置障碍，，处于这种考虑，sun公司一开始就规定，接口的属性和方法默认就是public 的
+
