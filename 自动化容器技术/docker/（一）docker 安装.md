@@ -27,3 +27,22 @@ sudo apt-get -y install docker-ce
 # sudo apt-get -y install docker-ce=[VERSION]
 ```
 
+```
+uname -r
+yum -y install docker
+
+service docker start
+
+docker run hello-world
+
+
+
+https://my.oschina.net/u/228832/blog/3079150
+
+minikube https://github.com/AliyunContainerService/minikube/wiki
+
+
+安装
+yum install conntrack-tools
+```
+
