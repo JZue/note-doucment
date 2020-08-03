@@ -1,4 +1,12 @@
-![image](http://note.youdao.com/yws/res/135/D8B46CA5211A4415A91DB76E4F1CAA51?ynotemdtimestamp=1596186363093) 如上图所示，首先Java源代码文件(.java后缀)会被Java编译器编译为字节码文件(.class后缀)，然后由JVM中的类加载器加载各个类的字节码文件，加载完毕之后，交由JVM执行引擎执行。在整个程序执行过程中，JVM会用一段空间来存储程序执行期间需要用到的数据和相关信息，这段空间一般被称作为Runtime Data Area（运行时数据区），也就是我们常说的JVM内存。因此，在Java中我们常常说到的内存管理就是针对这段空间进行管理（如何分配和回收内存空间）
+![JVM11](JVM11.jpg)
+
+如上图所示，首先Java源代码文件(.java后缀)会被Java编译器编译为字节码文件(.class后缀)，然后由JVM中的类加载器加载各个类的字节码文件，加载完毕之后，交由JVM执行引擎执行。在整个程序执行过程中，JVM会用一段空间来存储程序执行期间需要用到的数据和相关信息，这段空间一般被称作为Runtime Data Area（运行时数据区），也就是我们常说的JVM内存。因此，在Java中我们常常说到的内存管理就是针对这段空间进行管理（如何分配和回收内存空间）
+
+
+
+ ![JVM分区1](JVM分区1.jpg)
+
+
 
 ![image](http://note.youdao.com/yws/res/133/6F63B832D7BF4F49818E56C0F6A2387E?ynotemdtimestamp=1596186363093)
 
