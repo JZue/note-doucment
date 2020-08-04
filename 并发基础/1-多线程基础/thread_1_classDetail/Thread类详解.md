@@ -18,6 +18,8 @@ hotspot源码：[http://hg.openjdk.java.net](http://hg.openjdk.java.net/)
 
 
 
+
+
 ```java
 public final void stop();
 public final synchronized void stop(Throwable obj);
