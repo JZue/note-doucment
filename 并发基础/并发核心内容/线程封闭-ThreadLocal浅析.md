@@ -13,61 +13,62 @@
 ## 核心方法
 
 ```java
- protected T initialValue() {
-        return null;
-    }
+protected T initialValue() {
+    return null;
+}
 ```
 
 ```
 /**
- * Returns the current thread's "initial value" for this
- * thread-local variable.  This method will be invoked the first
- * time a thread accesses the variable with the {@link #get}
- * method, unless the thread previously invoked the {@link #set}
- * method, in which case the {@code initialValue} method will not
- * be invoked for the thread.  Normally, this method is invoked at
- * most once per thread, but it may be invoked again in case of
- * subsequent invocations of {@link #remove} followed by {@link #get}.
- *
- * <p>This implementation simply returns {@code null}; if the
- * programmer desires thread-local variables to have an initial
- * value other than {@code null}, {@code ThreadLocal} must be
- * subclassed, and this method overridden.  Typically, an
- * anonymous inner class will be used.
- *
- * @return the initial value for this thread-local
- */
+* Returns the current thread's "initial value" for this
+* thread-local variable.  This method will be invoked the first
+* time a thread accesses the variable with the {@link #get}
+* method, unless the thread previously invoked the {@link #set}
+* method, in which case the {@code initialValue} method will not
+* be invoked for the thread.  Normally, this method is invoked at
+* most once per thread, but it may be invoked again in case of
+* subsequent invocations of {@link #remove} followed by {@link #get}.
+*
+* <p>This implementation simply returns {@code null}; if the
+* programmer desires thread-local variables to have an initial
+* value other than {@code null}, {@code ThreadLocal} must be
+* subclassed, and this method overridden.  Typically, an
+* anonymous inner class will be used.
+*
+* @return the initial value for this thread-local
+*/
 ```
 
  返回线程局部变量初始值，该方法是一个protected的方法，显然是为了让子类覆盖而设计的。这个方法是一个延迟调用方法，在线程第1次调用get()或set(Object)时才执行，并且仅执行1次。ThreadLocal中的缺省实现直接返回一个null。
 
 ```java
-  public T get() {
-        Thread t = Thread.currentThread();
-        ThreadLocalMap map = getMap(t);
-        if (map != null) {
-            ThreadLocalMap.Entry e = map.getEntry(this);
-            if (e != null) {
-                @SuppressWarnings("unchecked")
-                T result = (T)e.value;
-                return result;
-            }
+public T get() {
+    Thread t = Thread.currentThread();
+    ThreadLocalMap map = getMap(t);
+    if (map != null) {
+        ThreadLocalMap.Entry e = map.getEntry(this);
+        if (e != null) {
+            @SuppressWarnings("unchecked")
+            T result = (T)e.value;
+            return result;
         }
-        return setInitialValue();
     }
+    return setInitialValue();
+}
 ```
 
 该方法返回当前线程所对应的线程局部变量。
 
 ```java
- public void set(T value) {
-        Thread t = Thread.currentThread();
-        ThreadLocalMap map = getMap(t);
-        if (map != null)
-            map.set(this, value);
-        else
-            createMap(t, value);
-    }
+public void set(T value) {
+    Thread t = Thread.currentThread();
+    ThreadLocalMap map = getMap(t);
+    if (map != null)
+        map.set(this, value);
+    else
+        createMap(t, value);
+}
+
 ```
 
 设置当前线程的线程局部变量的值。

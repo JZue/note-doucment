@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cecb48ea-b86a-44ee-84ee-4d7ad3402356" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/handler/DiscardServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/handler/DiscardServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/server/DiscardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/server/DiscardServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linux/linux的进程.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../linux/linux的进程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty1/netty-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty1/netty-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../并发基础/SourceCode/HighConcurrency/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../并发基础/SourceCode/HighConcurrency/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../自动化容器技术/jenkins.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../自动化容器技术/jenkins.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,27 +21,27 @@
     <session id="886026403">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="751" />
-          <entry key="xml" value="60" />
+          <entry key="xml" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="751" />
-          <entry key="XML" value="60" />
+          <entry key="XML" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
+          <entry key="class" value="12" />
           <entry key="iml" value="2" />
           <entry key="java" value="4" />
           <entry key="xml" value="1" />
@@ -46,7 +49,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="12" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="4" />
           <entry key="XML" value="1" />
@@ -56,93 +59,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty1/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="269">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/handler/DiscardServerHandler.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/InternalHttpAsyncClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="86" lean-forward="true" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-485">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/buffer/ByteBuf.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/InternalIOReactorExceptionHandler.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="273" column="28" selection-start-line="273" selection-start-column="28" selection-end-line="273" selection-end-column="28" />
+            <state relative-caret-position="70">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/buffer/AbstractByteBuf.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/HttpAsyncClientBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="763" column="19" selection-start-line="763" selection-start-column="19" selection-end-line="763" selection-end-column="19" />
+            <state relative-caret-position="-1169">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/io/OutputStreamWriter.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/PipeliningClientExchangeHandlerImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+            <state relative-caret-position="-203">
+              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/MinimalHttpAsyncClientBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/conn/Wire.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/conn/CPoolEntry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/server/DiscardServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="37" column="73" lean-forward="true" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
+              <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#919#1207#0" expanded="true" />
-                <element signature="e#1206#1207#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/channel/ChannelInitializer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="47" column="53" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -179,9 +175,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/netty1/pom.xml" />
         <option value="$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/handler/DiscardServerHandler.java" />
         <option value="$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/server/DiscardServer.java" />
+        <option value="$PROJECT_DIR$/netty1/pom.xml" />
       </list>
     </option>
   </component>
@@ -200,8 +196,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1518" />
-    <option name="y" value="377" />
+    <option name="x" value="1589" />
+    <option name="y" value="270" />
     <option name="width" value="1312" />
     <option name="height" value="655" />
   </component>
@@ -276,34 +272,14 @@
             </path>
             <path>
               <item name="note-netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jzuekk" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="note-netty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="note-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="netty1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jzuekk" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,26 +338,25 @@
       <updated>1571794433868</updated>
       <workItem from="1571794435583" duration="1813000" />
       <workItem from="1571811397613" duration="5562000" />
+      <workItem from="1574214155192" duration="201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7375000" />
+    <option name="totallyTimeSpent" value="7576000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1518" y="377" width="1312" height="655" extended-state="0" />
+    <frame x="1589" y="270" width="1312" height="655" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8721137" visible="true" weight="0.24015749" />
-      <window_info id="Structure" order="1" sideWeight="0.12788633" side_tool="true" visible="true" weight="0.24015749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8703375" visible="true" weight="0.40944883" />
+      <window_info id="Structure" order="1" sideWeight="0.12966253" side_tool="true" visible="true" weight="0.40944883" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
-      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
-      <window_info anchor="bottom" id="JProfiler" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27708703" />
@@ -395,6 +370,8 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.36412078" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3285968" />
+      <window_info anchor="bottom" id="JProfiler" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -413,96 +390,127 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/handler.java" />
+    <entry file="file://$PROJECT_DIR$/netty1/netty1.iml" />
+    <entry file="file://$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/handler/DiscardServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty1/netty-1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty1/netty1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/channel/ChannelInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/io/OutputStreamWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        <state relative-caret-position="299">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/buffer/ByteBuf.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="5750">
           <caret line="273" column="28" selection-start-line="273" selection-start-column="28" selection-end-line="273" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/buffer/AbstractByteBuf.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="15548">
           <caret line="763" column="19" selection-start-line="763" selection-start-column="19" selection-end-line="763" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/io/OutputStreamWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/channel/ChannelInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="47" column="53" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.31.Final/netty-all-4.1.31.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="138">
           <caret line="10" column="51" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/handler/DiscardServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/netty1/netty-1.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/server/DiscardServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="86" lean-forward="true" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+        <state relative-caret-position="100">
+          <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty1/src/main/java/com/jzuekk/netty/server/DiscardServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/InternalHttpAsyncClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="37" column="73" lean-forward="true" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#919#1207#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-485">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/InternalIOReactorExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/HttpAsyncClientBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1169">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/PipeliningClientExchangeHandlerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/client/MinimalHttpAsyncClientBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/conn/Wire.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1/httpasyncclient-4.1.jar!/org/apache/http/impl/nio/conn/CPoolEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>

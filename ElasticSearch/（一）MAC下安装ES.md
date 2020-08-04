@@ -42,6 +42,8 @@ brew services start kibana
 
 ```
 http://localhost:5601
+
+/var/log/kibana/
 ```
 
 ```
