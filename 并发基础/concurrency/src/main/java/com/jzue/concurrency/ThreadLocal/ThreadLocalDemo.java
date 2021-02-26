@@ -27,7 +27,8 @@ public class ThreadLocalDemo {
         });
         //  无set值
         Thread thread3 =new Thread(()->{
-//            threadLocal.set("thread2");
+            threadLocal.set("thread3");
+            threadLocal.set("thread33");
             System.out.println("thread3-set:"+threadLocal.get());
             threadLocal.remove();
             System.out.println("thread3-remove:"+threadLocal.get());
