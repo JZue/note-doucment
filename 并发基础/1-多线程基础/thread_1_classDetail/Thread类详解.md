@@ -29,7 +29,7 @@ public final void resume();
 ```java
 
 
-// 标注了大部分核心的方法的解释~深入理解thread类~应该是说多线程的基础，很多人虽然做过很多多线程的开发，然后却很少关注thread的类
+// 标注了大部分核心的方法的解释~深入理解thread类~应该是说多线程的基础
 package java.lang;
 
 import java.lang.ref.Reference;
