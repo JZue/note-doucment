@@ -133,8 +133,8 @@ using filesort:一般出现在 使用了 order by 语句当中。说明mysql会�
 
 using temporary: 新建了临时表，常见于排序order by 和group by
   - 要么就不要建索引，建索引就要group by的优化
-using index  用了覆盖索引，若同时出现using where ,标明索引被用来执行对应的键值的查询
-using where
+using index    用了覆盖索引，若同时出现using where ,表明查找使用了索引，但是需要的数据都在索引列中能找到，所以不需要回表查询数据
+using where    SQL使用了where条件过滤数据。
 using join buffer :使用了连接缓存
 impossible where  表示 where子句的值总是false，比如where m.uid=1 and m.uid =2
 select tables optimized away

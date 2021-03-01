@@ -79,4 +79,42 @@
 
 　　obj.notify()唤醒在此对象监视器上等待的单个线程，选择是任意性的。notifyAll()唤醒在此对象监视器上等待的所有线程。
 
+#### 线程thread的状态 BLOCKED,WAITING,TIMED_WAITING
+
+##### BLOCKED
+
+这种状态是指一个阻塞线程在等待monitor锁
+
+如：等待进入同步区域
+
+##### WAITING（无限期等待）
+
+一个线程在等待另一个线程执行一个动作时在这个状态
+
+如：
+
+* Object#wait() 而且不加超时参数
+
+* Thread#join() 而且不加超时参数
+
+* LockSupport#park()
+
+##### TIMED_WAITING（限期等待）
+
+一个线程在一个特定的等待时间内等待另一个线程完成一个动作会在这个状态
+
+如：
+
+
+
+* Thread#sleep()
+
+* Object#wait() 并加了超时参数
+
+* Thread#join() 并加了超时参数
+
+* LockSupport#parkNanos()
+
+* LockSupport#parkUntil()
+
 本文原文链接：<http://www.zhiliaotang.net/jishujiaoliu/Java/249.html>
