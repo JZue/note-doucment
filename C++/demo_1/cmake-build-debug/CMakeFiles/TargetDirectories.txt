@@ -1,3 +1,0 @@
-/Users/jzue/Desktop/note-doucment/C++/demo_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/jzue/Desktop/note-doucment/C++/demo_1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jzue/Desktop/note-doucment/C++/demo_1/cmake-build-debug/CMakeFiles/demo_1.dir
