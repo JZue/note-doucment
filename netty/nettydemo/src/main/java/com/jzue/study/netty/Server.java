@@ -11,7 +11,7 @@ import io.netty.util.AttributeKey;
 /**
  * @author
  */
-public final class Server {
+public final class  Server {
 
     public static void main(String[] args) throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
