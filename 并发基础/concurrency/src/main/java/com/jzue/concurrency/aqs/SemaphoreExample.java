@@ -1,4 +1,4 @@
-package com.jzue.concurrency.count;
+package com.jzue.concurrency.aqs;
 
 import org.springframework.scheduling.concurrent.ThreadPoolExecutorFactoryBean;
 
@@ -9,7 +9,7 @@ import java.util.concurrent.*;
  * @Date: 2019/1/25 上午11:45
  * @Description:
  **/
-public class CountExample {
+public class SemaphoreExample {
     private static  int clientTotal=5000;
     private static  int threadTotal=200;//线程池线程最大连接数，也就是最大的可同时执行的线程数
     private static  int count =0;

@@ -33,7 +33,7 @@ import java.util.concurrent.locks.LockSupport;
  *      5-然后解锁unlock,然后会判断state是否为0,保证重入锁都被释放了，然后release，然后会通过LockSupport.unpark()唤醒head结点后面的首个不处于cancel的结点
  *      6-然后线程重新开始获取锁，以此类推
  **/
-public abstract class MyAbstractQueuedSynchronizer extends MyAbstractOwnableSynchronizer{
+public abstract class MyAbstractQueuedSynchronizer extends com.jzue.concurrency.mycoucurrency.MyAbstractOwnableSynchronizer {
 
     protected MyAbstractQueuedSynchronizer() { }
 

@@ -1,0 +1,11 @@
+
+a
+java:S2095"KUse try-with-resources or close this "SocketChannel" in a "finally" clause.(È´ŽÀ
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¼âÇšüÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ç¦¬ßýÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(›˜Å÷
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ÝÝ°šÿÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(ªº½þ
+V	java:S1256"<This block of commented-out lines of code should be removed.(²ÎÖèýÿÿÿÿ
