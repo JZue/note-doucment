@@ -19,3 +19,14 @@
 
 比如你的L1缓存大小是512kb,而cacheline = 64byte,那么就是L1里有512 * 1024/64个cacheline
 
+
+
+寄存器：
+
+https://blog.csdn.net/Iamthedoctor123/article/details/84451724
+
+
+
+基于栈的虚拟机和基于寄存器的虚拟机
+
+https://blog.csdn.net/dashuniuniu/article/details/50347149
