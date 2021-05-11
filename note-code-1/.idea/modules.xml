@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/effectivejava/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/effectivejava/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-rsocket/.mvn/.mvn1.iml" filepath="$PROJECT_DIR$/note-rsocket/.mvn/.mvn1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-muti-thread/.mvn/.mvn10.iml" filepath="$PROJECT_DIR$/note-muti-thread/.mvn/.mvn10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-elasticsearch/.mvn/.mvn11.iml" filepath="$PROJECT_DIR$/note-elasticsearch/.mvn/.mvn11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-http/.mvn/.mvn2.iml" filepath="$PROJECT_DIR$/note-http/.mvn/.mvn2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-example/gateway/.mvn/.mvn3.iml" filepath="$PROJECT_DIR$/SC-example/gateway/.mvn/.mvn3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos-client/.mvn/.mvn4.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos-client/.mvn/.mvn4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot/.mvn/.mvn5.iml" filepath="$PROJECT_DIR$/boot/.mvn/.mvn5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notesecurity/.mvn/.mvn6.iml" filepath="$PROJECT_DIR$/notesecurity/.mvn/.mvn6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-mysql/.mvn/.mvn7.iml" filepath="$PROJECT_DIR$/note-mysql/.mvn/.mvn7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpattern/.mvn/.mvn8.iml" filepath="$PROJECT_DIR$/designpattern/.mvn/.mvn8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-redis/.mvn/.mvn9.iml" filepath="$PROJECT_DIR$/note-redis/.mvn/.mvn9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-example/Eureka/Eureka.iml" filepath="$PROJECT_DIR$/SC-example/Eureka/Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot/src/boot.iml" filepath="$PROJECT_DIR$/boot/src/boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/product/client/client.iml" filepath="$PROJECT_DIR$/springcloud_sell/product/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/cmdb/cmdb.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/cmdb/cmdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/product/common/common.iml" filepath="$PROJECT_DIR$/springcloud_sell/product/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-example/gateway/src/gateway.iml" filepath="$PROJECT_DIR$/SC-example/gateway/src/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpattern/src/main/main.iml" filepath="$PROJECT_DIR$/designpattern/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-mysql/src/main/main1.iml" filepath="$PROJECT_DIR$/note-mysql/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-muti-thread/src/main/main10.iml" filepath="$PROJECT_DIR$/note-muti-thread/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/common/src/main/main11.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/common/src/main/main11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-redis/src/main/main12.iml" filepath="$PROJECT_DIR$/note-redis/src/main/main12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/naming/src/main/main13.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/naming/src/main/main13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/example/src/main/main14.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/example/src/main/main14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notesecurity/src/main/main15.iml" filepath="$PROJECT_DIR$/notesecurity/src/main/main15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/client/src/main/main16.iml" filepath="$PROJECT_DIR$/springcloud_sell/client/src/main/main16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/api-gateway/src/main/main17.iml" filepath="$PROJECT_DIR$/springcloud_sell/api-gateway/src/main/main17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/core/src/main/main18.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/core/src/main/main18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/product/server/src/main/main19.iml" filepath="$PROJECT_DIR$/springcloud_sell/product/server/src/main/main19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-example/configcenter/src/main/main2.iml" filepath="$PROJECT_DIR$/SC-example/configcenter/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/api/src/main/main20.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/api/src/main/main20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/config/src/main/main21.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/config/src/main/main21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/client/src/main/main22.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/client/src/main/main22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/effectivejava/src/main/main23.iml" filepath="$PROJECT_DIR$/effectivejava/src/main/main23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-elasticsearch/src/main/main3.iml" filepath="$PROJECT_DIR$/note-elasticsearch/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/console/src/main/main4.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/console/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/eureka/src/main/main5.iml" filepath="$PROJECT_DIR$/springcloud_sell/eureka/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-http/src/main/main6.iml" filepath="$PROJECT_DIR$/note-http/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-rsocket/src/main/main7.iml" filepath="$PROJECT_DIR$/note-rsocket/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/order/server/src/main/main8.iml" filepath="$PROJECT_DIR$/springcloud_sell/order/server/src/main/main8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/config/src/main/main9.iml" filepath="$PROJECT_DIR$/springcloud_sell/config/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-example/msauth/msauth.iml" filepath="$PROJECT_DIR$/SC-example/msauth/msauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytomcat/mytomcat.iml" filepath="$PROJECT_DIR$/mytomcat/mytomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos-client/src/nacos-client.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos-client/src/nacos-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-io/note-io.iml" filepath="$PROJECT_DIR$/note-io/note-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-netty/note-netty.iml" filepath="$PROJECT_DIR$/note-netty/note-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/example/src/test/test.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/example/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-redis/src/test/test1.iml" filepath="$PROJECT_DIR$/note-redis/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-mysql/src/test/test10.iml" filepath="$PROJECT_DIR$/note-mysql/src/test/test10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/order/server/src/test/test11.iml" filepath="$PROJECT_DIR$/springcloud_sell/order/server/src/test/test11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-muti-thread/src/test/test12.iml" filepath="$PROJECT_DIR$/note-muti-thread/src/test/test12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/eureka/src/test/test13.iml" filepath="$PROJECT_DIR$/springcloud_sell/eureka/src/test/test13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-http/src/test/test14.iml" filepath="$PROJECT_DIR$/note-http/src/test/test14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-example/configcenter/src/test/test15.iml" filepath="$PROJECT_DIR$/SC-example/configcenter/src/test/test15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/client/src/test/test16.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/client/src/test/test16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/common/src/test/test17.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/common/src/test/test17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/api/src/test/test18.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/api/src/test/test18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/test/test19.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/test/test19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/config/src/test/test2.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/config/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-rsocket/src/test/test20.iml" filepath="$PROJECT_DIR$/note-rsocket/src/test/test20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/console/src/test/test21.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/console/src/test/test21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notesecurity/src/test/test22.iml" filepath="$PROJECT_DIR$/notesecurity/src/test/test22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/config/src/test/test23.iml" filepath="$PROJECT_DIR$/springcloud_sell/config/src/test/test23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/client/src/test/test24.iml" filepath="$PROJECT_DIR$/springcloud_sell/client/src/test/test24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpattern/src/test/test3.iml" filepath="$PROJECT_DIR$/designpattern/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/effectivejava/src/test/test4.iml" filepath="$PROJECT_DIR$/effectivejava/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/note-elasticsearch/src/test/test5.iml" filepath="$PROJECT_DIR$/note-elasticsearch/src/test/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/naming/src/test/test6.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/naming/src/test/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/product/server/src/test/test7.iml" filepath="$PROJECT_DIR$/springcloud_sell/product/server/src/test/test7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-Alibaba-Example/nacos/core/src/test/test8.iml" filepath="$PROJECT_DIR$/SC-Alibaba-Example/nacos/core/src/test/test8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_sell/api-gateway/src/test/test9.iml" filepath="$PROJECT_DIR$/springcloud_sell/api-gateway/src/test/test9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC-example/zuul/zuul.iml" filepath="$PROJECT_DIR$/SC-example/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

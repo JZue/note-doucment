@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nacos-server-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SC-Alibaba-Example/nacos/distribution/target/nacos-server-1.0.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
