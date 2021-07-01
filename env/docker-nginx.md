@@ -90,8 +90,8 @@ http {
 
 ```
 # 机器创建目录和文件
-mkdir /Data/conf/nginx/html /Data/logs/nginx
-touch /Data/conf/nginx/nginx.conf
+mkdir /Data/volume/nginx/html /Data/volume/nginx
+touch /Data/volume/nginx/nginx.conf
 # 拉取镜像
 docker pull nginx:1.19.4
 # 默认配置启动镜像
@@ -99,7 +99,7 @@ docker run --name nginx-test -p 80:80 -d nginx:1.19.4
 # cp默认配置
 docker cp 358354f206fd:/etc/nginx/nginx.conf /Data/volume/nginx/nginx.conf
 # 启动镜像
-docker run -d --name nginx_1_19_4 -p 80:80 -p 443:443   \
+docker run -d --name nginx_1_19_4 -p 80:80 -p 443:443 \
 -v /Data/volume/nginx/html:/usr/share/nginx/html \
 -v /Data/volume/nginx/static:/usr/share/nginx/static \
 -v /Data/volume/nginx/nginx.conf:/etc/nginx/nginx.conf \

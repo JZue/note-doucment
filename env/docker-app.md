@@ -7,7 +7,10 @@ docker build -t kk-blog-docker-image .
 
 
 ```
-docker run --name kk-blog-docker-image -d -v /Data/logs/kk-blog:/log -p 8080:8080 kk-blog-docker-image:latest
+docker run --name kk-blog-docker-image -d 
+-v /Data/logs/kk-blog:/log
+-v /Data/volume/nginx/html/sitemap/:/tmp/sitemap/
+-p 8080:8080 kk-blog-docker-image:latest
 ```
 
 
