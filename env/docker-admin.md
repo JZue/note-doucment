@@ -7,6 +7,9 @@ docker build -t admin-blog -f ./Dockerfile .
 
 ```
 docker run --name admin-blog -d  -p 8000:80 admin-blog:latest
+
+
+docker exec -it admin-blog /bin/bash
 ```
 
 ```

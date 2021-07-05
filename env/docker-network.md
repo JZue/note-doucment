@@ -17,5 +17,9 @@ netstat -tunpl  查看网络端口监听状况
 
 重启docker
 systemctl restart docker
+
+
+查看桥接网络
+docker network inspect bridge
 ```
 
