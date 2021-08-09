@@ -10,15 +10,7 @@ IDEA版本Verison 2020.1.1
 
 
 
-![IDEA1](/Users/jzue/Desktop/blog_file/文章图片/IDEA/IDEA1.jpg)
+![IDEA1](http://file.xjzspace.com/20210720205330.jpg)
 
 [参考文章](<https://blog.csdn.net/qq_22934887/article/details/99447413>)
-
-
-
-
-
-```
-alter table medicalrecord_avatar.systemlogs modify id bigint(20) unsigned NOT NULL DEFAULT '0'
-```
 

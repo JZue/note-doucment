@@ -17,8 +17,11 @@ IDE:     社区版本
 
 3)  执行编译命令  mvn clean install -DskipTests -Pfast（有小伙伴问，为什么我import的源码文件夹没有正常的被标记source/Resource/Test... 先编译，就不会有这个问题了）
 
-done
 ```
 
 
+
+文中相关的注释均已提交至  https://github.com/JZue/spring-boot/tree/spring-study
+
+相关的demo源码已提交至 https://github.com/JZue/spring-study.git
 

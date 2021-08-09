@@ -4,15 +4,7 @@ hotspot源码：[http://hg.openjdk.java.net](http://hg.openjdk.java.net/)
 
 具体下载步骤可以参考下:<https://blog.csdn.net/u012534326/article/details/85457119>
 
-具体源码的位置~各个jdk甚至各个版本~都会有不同，文中以hotspot ——jdk8u60为例
-
-关于部分native方法，试着理解一下jvm中源码的实现~这样才能真正的理解；
-
-
-
-
-
-
+具体源码的位置~各个jdk甚至各个版本~都会有不同，文中以hotspot _jdk8u60为例
 
 ```java
 public final void stop();
@@ -1133,9 +1125,5 @@ public class Thread implements Runnable {
     private native void interrupt0();
     private native void setNativeName(String name);
 }
-
-
-
-
 ```
 

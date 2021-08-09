@@ -1,4 +1,4 @@
-![thread_status](/Users/jzue/Desktop/blog_file/thread_status.jpg)
+![thread_status](http://file.xjzspace.com/20210720175723.jpg)
 
 
 

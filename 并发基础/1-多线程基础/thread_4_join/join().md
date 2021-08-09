@@ -105,6 +105,8 @@ public class ThreadJoin {
     1. 此时main线程只有锁，t1.join(),main线程被阻塞，t1,t2挣抢锁，谁抢到谁执行
     2. 此时t1持有锁，t1执行，然后不论是主线程还是t2抢到锁，都是一样的结果
     3. 此时t2持有锁，t2执行，然后不论是主线程还是t1抢到锁，都是一样的结果
+    
+    **关键点在于，main线程只要持有锁就有
 
 
 按照这个理解，如果去掉thread2.join()，应该是可能出现t1=>main=>t2这样的情况的，大家可以去试试
@@ -156,7 +158,7 @@ java 是没有办法销毁一个线程的，销毁线程是由c++去做的，当
        		Thread thread1 = new Thread();
             Thread thread2 = new Thread();
             Thread thread3 = new Thread();
-       
+            
             //启动线程
             thread1.start();
             //控制线程必须执行完成
