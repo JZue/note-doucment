@@ -54,5 +54,23 @@ crontab -e
 
 ```
 
+5. 基于PicGo搭建
 
+```
+                proxy_redirect off;
+                proxy_pass http://blogserver;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header REMOTE-HOST $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+                add_header 'Access-Control-Allow-Origin' $http_origin;
+                add_header 'Access-Control-Allow-Credentials' 'true';
+                add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE';
+                add_header 'Access-Control-Allow-Headers' 'DNT,web-token,app-token,Authorization,Accept,Origin,Keep-Alive,User-Agent,X-Mx-ReqToken,X-Data-Type,X-Auth-Token,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Set-Cookie';
+                add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+                if ($request_method = 'OPTIONS') {
+                        return 204;
+                }
+```
 
