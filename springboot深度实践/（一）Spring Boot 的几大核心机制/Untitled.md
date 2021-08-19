@@ -10,3 +10,16 @@
 
 用途，使用案例，源码分析
 
+
+
+
+
+spring 生命周期：  jianshu.com/p/927f24ceadfa
+
+```
+https://www.it610.com/article/1404419925111525376.htm
+SmartInitializingSingleton  
+spring-core：内省之MethodIntrospector
+```
+
+# 
