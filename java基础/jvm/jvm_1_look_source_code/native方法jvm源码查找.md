@@ -14,13 +14,13 @@
 
 * 然后你就可以看到如下
 
-  ![jvm_source_look_1](/Users/jzue/Desktop/blog_file/jvm_source_look_1.png)
+  ![jvm_source_look_1](http://file.xjzspace.com/20210901142545.png)
 
 * 然后假设我们现在要找hashCode的源码，然后我们只需要复制JVM_IHashCode
 
 * 然后导入hotspot的源码，全局搜索
 
-  ![jvm_source_look_3](/Users/jzue/Desktop/blog_file/jvm_source_look_3.png)
+  ![jvm_source_look_3](http://file.xjzspace.com/20210901142553.png)
 
 发现在jvm.h这个头文件中找到了一个此方法，然后顺藤摸瓜，看看jvm.cpp;
 
@@ -28,7 +28,7 @@
 
 然后再jvm.cpp中找到了其实现逻辑
 
-![jvm_source_look_3](/Users/jzue/Desktop/blog_file/jvm_source_look_3.png)
+![jvm_source_look_3](http://file.xjzspace.com/20210901142556.png)
 
 ```
 先看Object的句柄是不是null,如果为null，就调用了ObjectSynchronizer的FastHashCode这个方法
