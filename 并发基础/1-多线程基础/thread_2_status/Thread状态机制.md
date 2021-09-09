@@ -41,7 +41,7 @@
 
 　　与等待队列相关的步骤和图
 
-![thread_status_2](/Users/jzue/Desktop/blog_file/thread_status_2.jpg)
+![thread_status_2](http://file.xjzspace.com/20210909111113.jpg)
 
 ​	1.线程1获取对象A的锁，正在使用对象A。
 
