@@ -1,0 +1,6 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ê²£Ÿøÿÿÿÿ
+˜squid:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ü›ºÆýÿÿÿÿ
+Hsquid:S1481",Remove this unused "request" local variable.(û÷ª‡ýÿÿÿÿ
+Wsquid:S1854";Remove this useless assignment to local variable "request".(û÷ª‡ýÿÿÿÿ

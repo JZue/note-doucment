@@ -1,0 +1,7 @@
+
+Msquid:S1444"1Make this "public static clientTotal" field final(˜ú«áûÿÿÿÿ
+Msquid:S1444"1Make this "public static threadTotal" field final(ðµùÈøÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake threadTotal a static final constant or non-public and provide accessors if needed.(ðµùÈøÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"WMake clientTotal a static final constant or non-public and provide accessors if needed.(˜ú«áûÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"QMake count a static final constant or non-public and provide accessors if needed.(˜“ÿ±
+Bsquid:S1444"+Make this "public static count" field final(˜“ÿ±

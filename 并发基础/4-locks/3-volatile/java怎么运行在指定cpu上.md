@@ -1,0 +1,1 @@
+两种方式：一种是使用jrockit-jdk，一种是通过taskset命令指定cpu

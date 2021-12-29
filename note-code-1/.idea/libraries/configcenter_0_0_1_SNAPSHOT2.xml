@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="configcenter-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SC-example/configcenter/target/configcenter-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

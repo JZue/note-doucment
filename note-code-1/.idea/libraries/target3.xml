@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="target3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SC-Alibaba-Example/nacos/common/target/nacos-common-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SC-Alibaba-Example/nacos/common/target/nacos-common-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

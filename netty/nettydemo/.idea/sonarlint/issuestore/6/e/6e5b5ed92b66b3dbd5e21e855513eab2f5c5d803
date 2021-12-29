@@ -1,0 +1,12 @@
+
+Z
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(Ãš¿±
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+>
+java:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±’¨¨
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£Û£‚üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(·²™§
+\
+java:S2142""FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nacos-cmdb-plugin-example">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SC-Alibaba-Example/nacos/distribution/plugins/cmdb/nacos-cmdb-plugin-example.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

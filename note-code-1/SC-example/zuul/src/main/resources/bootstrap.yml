@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: zuul-gw
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+      profile: dev
+
+eureka:
+  client:
+    service-url: http://localhost:8761/eureka/
+server:
+  port: 8000
